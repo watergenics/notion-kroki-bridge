@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  notion-kroki-bridge:
+  - apiVersion: v2
+    appVersion: v0.1.0
+    created: "2022-07-13T15:28:13.670309+02:00"
+    description: Bridge notion.so code blocks to kroki.io to render them as images
+    digest: 02f5adbd65c5d771329054d911dbb6a6488f46e722e191716cd241af3a6d15ea
+    name: notion-kroki-bridge
+    type: application
+    urls:
+    - notion-kroki-bridge-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-07-13T15:28:13.669669+02:00"
