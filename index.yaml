@@ -3,6 +3,16 @@ entries:
   notion-kroki-bridge:
   - apiVersion: v2
     appVersion: v0.1.0
+    created: "2022-07-13T14:33:50.771507592Z"
+    description: Bridge notion.so code blocks to kroki.io to render them as images
+    digest: d984f9e2b15e8cf85c156a705b1ef183a790968267986e30ea47d5284bacdb06
+    name: notion-kroki-bridge
+    type: application
+    urls:
+    - https://github.com/watergenics/notion-kroki-bridge/releases/download/notion-kroki-bridge-0.1.3/notion-kroki-bridge-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v2
+    appVersion: v0.1.0
     created: "2022-07-13T15:28:13.670309+02:00"
     description: Bridge notion.so code blocks to kroki.io to render them as images
     digest: 02f5adbd65c5d771329054d911dbb6a6488f46e722e191716cd241af3a6d15ea
@@ -11,4 +21,4 @@ entries:
     urls:
     - notion-kroki-bridge-0.1.0.tgz
     version: 0.1.0
-generated: "2022-07-13T15:28:13.669669+02:00"
+generated: "2022-07-13T14:33:50.7721939Z"
