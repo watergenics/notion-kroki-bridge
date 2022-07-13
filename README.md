@@ -14,7 +14,7 @@ With much inspiration from [notion-plantuml](https://github.com/rnovicky/notion-
 
 Once Helm has been set up correctly, add the repo as follows:
 
-  helm repo add notion-kroki-bridge https://watergenics.github.io/notion-kroki-bridge
+    helm repo add notion-kroki-bridge https://watergenics.github.io/notion-kroki-bridge
 
 If you had already added this repo earlier, run `helm repo update` to retrieve
 the latest versions of the packages.  You can then run `helm search repo
