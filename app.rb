@@ -25,7 +25,9 @@ class App
     format = my[:format]
     format = "svg" unless FORMATS.include? format
 
-    fetch_image(type, format, code)
+    response = fetch_image(type, format, code)
+    self.response.headers["Content-Type"] = response.header["Content-Type"]
+    response.body
   end
 
   def fetch_block(block_id)
@@ -61,6 +63,6 @@ class App
   end
 
   def fetch_image(type, format, code)
-    Net::HTTP.post(URI("https://kroki.io/#{type}/#{format}"), code, { "Content-Type": "text/plain" }).body
+    Net::HTTP.post(URI("https://kroki.io/#{type}/#{format}"), code, { "Content-Type": "text/plain" })
   end
 end
