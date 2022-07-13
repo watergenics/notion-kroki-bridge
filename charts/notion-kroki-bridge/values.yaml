@@ -3,7 +3,7 @@ notionApiToken:
 replicaCount: 1
 
 image:
-  repository: ghcr.io/watergenics/notion-kroki-bridge
+  repository: ghcr.io/watergenics/notion-kroki-bridge/notion-kroki-bridge
   pullPolicy: IfNotPresent
   tag: ""
 
